@@ -5,7 +5,7 @@ module.exports = app => {
     router.post("/",controller.createRol);
     router.get("/",controller.listRol);
 
-    
+    router.get("/:id",controller.getRolById);
 
 
 
