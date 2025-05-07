@@ -6,6 +6,7 @@ module.exports = app => {
     router.get("/",controller.listRol);
 
     router.get("/:id",controller.getRolById);
+    router.delete("/:id",controller.deleteRol);
 
 
 
